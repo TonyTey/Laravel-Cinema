@@ -10,7 +10,7 @@
     <div class="title">User Ticket Booking List
         <form class="form-inline" action="{{ route('search.user.booking') }}" method="post" style="margin-left: 35%">
         @csrf
-            <input class="form-control" type="search" name="keywordUserBooking" id="keywordUserBooking" placeholder="Search User" aria-label="search"> 
+            <input class="form-control" type="search" name="keywordUserBooking" id="keywordUserBooking" placeholder="Search Movie Name" aria-label="search"> 
             <button class="btn btn-dark my-2 my-sm-0 ml-2" type="submit"><i class="fa fa-search"></i></button> 
         </form>
     </div>
